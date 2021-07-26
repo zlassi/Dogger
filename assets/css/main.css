@@ -1,0 +1,58 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray-light: #f8f9fa;
+    --gray: #999999;
+    --gray-dark: #4a4a4b;
+    --green: #a2c0be;
+    --green-dark: #567876;
+    --orange: #ff9900;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+/**
+ * Header
+ */
+header {
+    background-color: var(--gray-light);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+header nav ul a {
+    color: var(--gray);
+    text-decoration: none;
+}
+
+a.logo {
+    font-size: 2em;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+
